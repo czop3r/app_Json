@@ -1,0 +1,37 @@
+div {
+  padding-top: 15px;
+}
+
+table {
+  margin: 15px;
+  width: 80%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 90%;
+}
+
+.mat-row .mat-cell {
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: currentColor;
+}
+
+.new {
+  color: goldenrod;
+}
+
+.canceled {
+  color: red;
+}
+
+.completed {
+  color: green;
+}
+
+.confirmed {
+  color: blue;
+}

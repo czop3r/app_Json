@@ -1,0 +1,9 @@
+<div *ngIf="info" fxLayout="column" fxLayoutAlign="center center">
+  <h2>{{info.description}} | {{info.status}} | {{info.priority}}</h2>
+  <span>{{info.received_date}}</span>
+  <br>
+  <h2>Assigned to: </h2>
+  <div *ngFor="let i of info.assigned_to">
+    <p>{{i.person_name}} - <strong>{{i.status}}</strong></p>
+  </div>
+</div>
